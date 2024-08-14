@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Geometric-Triangle-Widescreen-Wallpapers-24845.jpg'); 
+    background-size: cover;
+}
+
+.canvas-container {
+    text-align: center;
+}
+
+.canvas-header {
+    margin-bottom: 20px;
+}
+
+.canvas {
+    position: relative;
+}
+
+.canvas-box {
+    border: 2px solid #000;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+canvas {
+    display: block;
+}
+
+.canvas-options {
+    margin-top: 20px;
+}
+
+.canvas-options button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.external-images {
+    margin-top: 50px;
+}
+
+.external-images h2 {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container img {
+    width: 150px;
+}
